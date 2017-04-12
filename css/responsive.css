@@ -1,0 +1,43 @@
+@media (min-width: 1250px) {
+.container{
+  width:1250px;} }
+
+@media (max-width: 992px) {
+#construction h1 {
+      font-size: 7px;}
+.contact h1, .services h1 {
+  border-bottom: 0px gray solid;}
+}
+
+@media (max-width: 767px) {
+#myNavbar ul {
+  flex-direction: column;
+  text-align: center;
+  justify-content: inherit;}
+#construction {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  border: 1px solid white;
+  position: relative;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  height: 13vh;}
+#construction h1 {
+  font-size: 12px;
+  margin-top: 10px;}
+section{
+  margin: 2% 0;}
+.boxServices {
+  margin: 2% 0;}
+.boxServices img {
+  width: 60%;}
+.contact .form-group {
+  width: 80%;
+  margin: 1% auto;
+  display: block;}
+.note {
+  text-align: center;
+  position: relative;
+  top: 0;}
+}

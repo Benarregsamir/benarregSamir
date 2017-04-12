@@ -1,0 +1,71 @@
+body{
+  overflow-x: hidden;}
+#construction{
+  -webkit-transform: rotate(10deg);
+  transform: rotate(45deg);
+  border: 1px solid white;
+  position: absolute;
+  top: 45px;
+  left: 80%;
+  width: 30%;
+  text-align: center;
+  z-index: 1;
+  background: yellow;}
+#construction h1{
+  font-size: 9px;
+  font-weight: 900;
+  text-transform: uppercase;}
+#myNavbar  ul{
+  font-family: 'Roboto', sans-serif, helvetica;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0.8em 0 0 0;
+  font-size: 1.5em;
+  padding: 0;
+  text-transform: uppercase;}
+#myNavbar ul li a{
+  color: black;}
+#myNavbar ul li a:hover{
+  color: red;
+  text-decoration: none;}
+header{
+  position: absolute;
+  margin-top: 6%;}
+.navbar-toggle {
+  float: none;
+  margin: 8px 0px;
+  width: 100%;
+  background-color: black;
+  border-radius: 0px;}
+.navbar-toggle .icon-bar {
+  margin: 0px auto;
+  background: white;
+  border-radius: 0px;}
+.boxServices {
+  text-align:center;}
+.boxServices img{
+  width: 100%;}
+.boxServices ul{
+  text-align: left;
+  width: 90%;
+  list-style-type: circle;
+  margin: 0 auto;}
+.contact input[type="submit"]{
+  width: 20%;}
+.contact .form-group {
+  margin-bottom: 15px;
+  display: flex;}
+.contact h1, .services h1{
+  text-align: center;
+  padding: 0 0 1% 0;
+  border-bottom: 2px gray solid;
+  width: 20%;
+  margin: 0 auto 2% auto;}
+.note{
+  text-align: right;
+  position: relative;
+  top: 17em;}
+.form-horizontal .control-label{
+  text-align: left;}
