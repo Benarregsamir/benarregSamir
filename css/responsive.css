@@ -10,6 +10,8 @@
 }
 
 @media (max-width: 767px) {
+body{
+  overflow-x: hidden;}
 #myNavbar ul {
   flex-direction: column;
   text-align: center;
@@ -36,8 +38,11 @@ section{
   width: 80%;
   margin: 1% auto;
   display: block;}
+.contact input[type="submit"]{
+  width: 100%;}
 .note {
   text-align: center;
   position: relative;
   top: 0;}
+
 }
