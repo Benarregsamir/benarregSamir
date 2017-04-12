@@ -30,6 +30,8 @@ body{
   margin-top: 10px;}
 section{
   margin: 2% 0;}
+.contact h1, .services h1 {
+  width: 100%;}
 .boxServices {
   margin: 2% 0;}
 .boxServices img {
