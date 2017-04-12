@@ -3,7 +3,7 @@ body{
 #construction{
   -webkit-transform: rotate(10deg);
   transform: rotate(45deg);
-  position: absolute;
+  position: fixed;
   top: 45px;
   left: 80%;
   width: 30%;
